@@ -1,0 +1,42 @@
+# ==================================
+# SMART CLEANER - GITIGNORE
+# ==================================
+
+# Quarentena
+quarantine/*
+!quarantine/.gitkeep
+
+# Backups
+backups/*
+!backups/.gitkeep
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Dados locais
+*.json
+
+# Arquivos temporários do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+venv/
+env/
+.venv/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações do editor
+.vscode/
+.idea/
